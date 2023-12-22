@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net451</TargetFrameworks>
+    <TargetFrameworks>net472</TargetFrameworks>
     <Product>Astrarium.Algorithms</Product>
     <Description>Contains algorithms and routines used in Astrarium</Description>
     <Copyright>© Alexander Krutov</Copyright>

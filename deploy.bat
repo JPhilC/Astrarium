@@ -27,7 +27,7 @@ rmdir /s /q "Deploy"
 
 dotnet build Astrarium.sln -c Release /p:Deploy=True /p:DeploymentVersion=%Version%
 
-iscc "/DVERSION=%Version%" Installer/Astrarium.iss
+"C:\Program Files (x86)\Inno Setup 6\iscc" "/DVERSION=%Version%" Installer/Astrarium.iss
 
 @echo off
 for /d %%a in ("Deploy\*") do rd "%%a" /q /s
