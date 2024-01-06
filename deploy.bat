@@ -4,10 +4,10 @@
 ::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::
-:: The script asks version number needed for distribution, without "v" prefix, 
+:: The script asks version number needed for distribution 
 :: like "2020.11". The script creates bunch of ZIP files (i.e components) and 
 :: single web-installer file. All files should be uploaded into GitHub as a new 
-:: release named with "v" prefix, like "v2020.11". 
+:: release with the tag named same as version number "2020.11". 
 ::
 :: End user needs only web-installer to be downloaded manually. Components will 
 :: be downloaded via installer automatically, according to user's choice in the 

@@ -16,7 +16,7 @@
   #pragma warning "Version is not provided from command line, setting default value"
 #endif
 
-#define DOWNLOAD_BASE_URL "https://github.com/Astrarium/Astrarium/releases/download/v"
+#define DOWNLOAD_BASE_URL "https://github.com/JPhilC/Astrarium/releases/download/"
 
 [Setup] 
 AppName               = "Astrarium"
